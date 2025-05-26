@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>À propos de nous - Jus Favoris</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <style>
+    .about-section {
+      max-width: 1000px;
+      margin: 120px auto 80px;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .about-section h1 {
+      color: #4b0167;
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+    }
+
+    .about-section p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #444;
+      margin-bottom: 20px;
+    }
+
+    .about-section img {
+      width: 100%;
+      max-width: 600px;
+      margin: 30px 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <a href="index.html" class="logo">
+      <img src="logoo.png" alt="JusFavoris">
+      <span>JUS FAVORIS</span>
+    </a>
+    <nav class="navbar">
+      <a href="index.html">Accueil</a>
+      <a href="menu.html">Menu</a>
+      <a href="aboutus.html" class="active">À propos de nous</a>
+      <div class="btn-box">
+        <a href="order.html">Commander</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="about-section">
+    <h1>À propos de Jus Favoris</h1>
+    <p>
+      Fondé au cœur de Gatineau par une famille libanaise passionnée, Jus Favoris est bien plus qu'un simple bar à jus. C'est une destination qui marie tradition, saveur et chaleur humaine.
+    </p>
+    <p>
+      Inspirés par les recettes maison du Liban, nous préparons des crêpes sucrées et salées, des milkshakes gourmands, des gaufres croustillantes, du bubble tea réconfortant, et surtout, une sélection de jus frais pressés faits à la minute.
+    </p>
+    <img src="interior.jpg" alt="Intérieur de Jus Favoris">
+    <p>
+      Chez Jus Favoris, chaque recette est une invitation à voyager. Nos saveurs sont authentiques, notre accueil est familial, et notre mission est simple : offrir des moments de bonheur à travers des goûts inoubliables.
+    </p>
+    <p>
+      Nous croyons que la nourriture et les boissons peuvent créer des connexions humaines fortes. C'est pourquoi nous faisons de chaque visite une expérience conviviale et chaleureuse, fidèle à l'hospitalité libanaise.
+    </p>
+    <p>
+      Venez découvrir l'univers de Jus Favoris. Un lieu où la qualité, la passion et la culture se rencontrent dans chaque gorgée et chaque bouchée.
+    </p>
+  </section>
+
+  <footer id="contact">
+    <div class="section-container footer-container">
+      <div class="footer-info">
+        <div class="footer-col">
+          <div class="footer-logo">
+            <a href="#" class="logo">
+              <img src="logoo.png" alt="JUS FAVORIS">
+              <span>JUS FAVORIS</span>
+            </a>
+          </div>
+          <ul class="footer-socials">
+            <li><a href="https://www.instagram.com/jusfavoris" target="_blank"><i class="ri-instagram-line"></i></a></li>
+            <li><a href="https://www.tiktok.com/@jusfavoris" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+            <li><a href="https://www.facebook.com/people/Jus-Favoris/61573405792693/" target="_blank"><i class="ri-facebook-fill"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul class="footer-links">
+            <li><a href="#"><i class="ri-phone-fill"></i> +1 (819) 525-3232</a></li>
+            <li><a href="#"><i class="ri-record-mail-line"></i> jusfavoris@gmail.com</a></li>
+            <li><a href="#"><i class="ri-map-pin-2-fill"></i> 20 Allée de Hambourg, Gatineau, Quebec.</a></li>
+            <li><a href="#"><i class="ri-time-fill"></i> All Week - 11am to 2am.</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Subscribe</h4>
+          <form action="https://formspree.io/f/mjkyonba" method="POST">
+            <input type="email" name="email" required placeholder="Enter your email">
+            <input type="hidden" name="_next" value="thankyou.html">
+            <input type="hidden" name="_captcha" value="false">
+            <button type="submit" class="btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2742.821529106687!2d-75.6992788841286!3d45.47963204027952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05d5303466ef%3A0x4a0d3fd63cb1fdb!2s20%20All%C3%A9e%20de%20Hambourg%2C%20Gatineau%2C%20QC!5e0!3m2!1sen!2sca!4v1716740130723!5m2!1sen!2sca"
+          width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+      <div class="footer-bar">
+        Copyright © 2025. JUSFAVORIS. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

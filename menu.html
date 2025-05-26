@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jus Favoris</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <style>
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 120px 20px 50px;
+    }
+
+    .menu-title {
+      text-align: center;
+      color: #4b0167;
+      margin-bottom: 50px;
+      font-size: 2.5rem;
+    }
+
+    .menu-category {
+      margin-bottom: 60px;
+    }
+
+    .category-header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .category-name {
+      color: #4b0167;
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+
+    .video-container {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      background: #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .video-container video {
+      width: 100%;
+      height: auto;
+      max-height: 100%;
+      border-radius: 10px;
+      object-fit: contain;
+      display: block;
+    }
+
+    @media (max-width: 768px) {
+      .menu-title {
+        font-size: 2rem;
+      }
+
+      .category-name {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="index.html" class="logo">
+      <img src="logoo.png" alt="JusFavoris">
+      <span>JUS FAVORIS</span>
+    </a>
+
+    <nav class="navbar">
+      <a href="index.html">Accueil</a>
+      <a href="menu.html" class="active">Menu</a>
+      <a href="aboutus.html">À propos de nous</a>
+      <div class="btn-box">
+        <a href="order.html">Commander</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="menu-title">Notre Menu</h1>
+
+    <!-- Crêpes -->
+    <section class="menu-category">
+      <div class="category-header">
+        <h2 class="category-name">Crêpes</h2>
+      </div>
+      <div class="video-container">
+        <video autoplay muted loop playsinline>
+          <source src="videos/crepe.mp4" type="video/mp4">
+          Votre navigateur ne supporte pas la vidéo.
+        </video>
+      </div>
+    </section>
+
+    <!-- Crêpes Salées -->
+    <section class="menu-category">
+      <div class="category-header">
+        <h2 class="category-name">Crêpes Salées Classiques</h2>
+      </div>
+      <div class="video-container">
+        <video autoplay muted loop playsinline>
+          <source src="videos/sale.mp4" type="video/mp4">
+          Votre navigateur ne supporte pas la vidéo.
+        </video>
+      </div>
+    </section>
+
+    <!-- Gaufres -->
+    <section class="menu-category">
+      <div class="category-header">
+        <h2 class="category-name">Gaufres</h2>
+      </div>
+      <div class="video-container">
+        <video autoplay muted loop playsinline>
+          <source src="videos/waffle.mp4" type="video/mp4">
+          Votre navigateur ne supporte pas la vidéo.
+        </video>
+      </div>
+    </section>
+
+    <!-- Bubble Tea -->
+    <section class="menu-category">
+      <div class="category-header">
+        <h2 class="category-name">Bubble Tea</h2>
+      </div>
+      <div class="video-container">
+        <video autoplay muted loop playsinline>
+          <source src="videos/bubble.mp4" type="video/mp4">
+          Votre navigateur ne supporte pas la vidéo.
+        </video>
+      </div>
+    </section>
+
+    <!-- Milkshakes -->
+    <section class="menu-category">
+      <div class="category-header">
+        <h2 class="category-name">Milkshakes Gourmands</h2>
+      </div>
+      <div class="video-container">
+        <video autoplay muted loop playsinline>
+          <source src="videos/shake.mp4" type="video/mp4">
+          Votre navigateur ne supporte pas la vidéo.
+        </video>
+      </div>
+    </section>
+
+    <!-- Jus Frais -->
+    <section class="menu-category">
+      <div class="category-header">
+        <h2 class="category-name">Jus Frais Pressés</h2>
+      </div>
+      <div class="video-container">
+        <video autoplay muted loop playsinline>
+          <source src="videos/press.mp4" type="video/mp4">
+          Votre navigateur ne supporte pas la vidéo.
+        </video>
+      </div>
+    </section>
+
+    <!-- Cocktails de Fruits -->
+    <section class="menu-category">
+      <div class="category-header">
+        <h2 class="category-name">Cocktails de Fruits</h2>
+      </div>
+      <div class="video-container">
+        <video autoplay muted loop playsinline>
+          <source src="videos/ashta.mp4" type="video/mp4">
+          Votre navigateur ne supporte pas la vidéo.
+        </video>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="section-container footer-container">
+      <div class="footer-info">
+        <div class="footer-col">
+          <div class="footer-logo">
+            <a href="#" class="logo">
+              <img src="logoo.png" alt="JUS FAVORIS">
+              <span>JUS FAVORIS</span>
+            </a>
+          </div>
+          <ul class="footer-socials">
+            <li><a href="https://www.instagram.com/jusfavoris" target="_blank"><i class="ri-instagram-line"></i></a></li>
+            <li><a href="https://www.tiktok.com/@jusfavoris" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+            <li><a href="https://www.facebook.com/people/Jus-Favoris/61573405792693/" target="_blank"><i class="ri-facebook-fill"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul class="footer-links">
+            <li><a href="#"><i class="ri-phone-fill"></i> +1 (819) 525-3232</a></li>
+            <li><a href="#"><i class="ri-record-mail-line"></i> jusfavoris@gmail.com</a></li>
+            <li><a href="#"><i class="ri-map-pin-2-fill"></i> 20 Allée de Hambourg, Gatineau, Quebec.</a></li>
+            <li><a href="#"><i class="ri-time-fill"></i> All Week - 11am to 2am.</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Subscribe</h4>
+          <form action="https://formspree.io/f/mjkyonba" method="POST">
+            <input type="email" name="email" required placeholder="Enter your email">
+            <input type="hidden" name="_next" value="thankyou.html">
+            <input type="hidden" name="_captcha" value="false">
+            <button type="submit" class="btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2742.821529106687!2d-75.6992788841286!3d45.47963204027952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05d5303466ef%3A0x4a0d3fd63cb1fdb!2s20%20All%C3%A9e%20de%20Hambourg%2C%20Gatineau%2C%20QC!5e0!3m2!1sen!2sca!4v1716740130723!5m2!1sen!2sca"
+          width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+      <div class="footer-bar">
+        Copyright © 2025. JUSFAVORIS. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
