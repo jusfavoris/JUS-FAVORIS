@@ -9,6 +9,9 @@
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
   <style>
+
+
+
     .about-section {
       max-width: 1000px;
       margin: 120px auto 80px;
@@ -49,10 +52,13 @@
       <a href="index.html">Accueil</a>
       <a href="menu.html">Menu</a>
       <a href="aboutus.html" class="active">À propos de nous</a>
-      <div class="btn-box">
+      <div class="btn-box1">
         <a href="order.html">Commander</a>
       </div>
     </nav>
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
   </header>
 
   <section class="about-section">
@@ -88,7 +94,7 @@
           <ul class="footer-socials">
             <li><a href="https://www.instagram.com/jusfavoris" target="_blank"><i class="ri-instagram-line"></i></a></li>
             <li><a href="https://www.tiktok.com/@jusfavoris" target="_blank"><i class="fab fa-tiktok"></i></a></li>
-            <li><a href="https://www.facebook.com/people/Jus-Favoris/61573405792693/" target="_blank"><i class="ri-facebook-fill"></i></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61576766640719" target="_blank"><i class="ri-facebook-fill"></i></a></li>
           </ul>
         </div>
 
@@ -126,6 +132,14 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const navbar = document.querySelector('.navbar');
+    menuBtn.addEventListener('click', () => {
+      navbar.classList.toggle('active');
+    });
+  </script>
 
 </body>
 </html>
